@@ -1,0 +1,64 @@
+[
+
+
+    {
+
+        "id" : 1,
+        "name" : "Story Book",
+        "title" : "ljanjndjan ajdnka",
+        "price" : 150,
+        "category" : "fairy tales",
+        "image" : "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730545953~exp=1730549553~hmac=70dcff994842df29cd560856a9f2668829b0b41ec2807749868b2604350b5d23&w=740"
+    },
+
+    {
+
+        "id" : 2,
+        "name" : "Music book",
+        "title" : "ljanjndjan ajdnka",
+        "price" : 0,
+        "category" : "free",
+        "image" : "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730545953~exp=1730549553~hmac=70dcff994842df29cd560856a9f2668829b0b41ec2807749868b2604350b5d23&w=740"
+    },
+
+    {
+
+        "id" : 2,
+        "name" : "Think and grow rich book",
+        "title" : "ljanjndjan ajdnka",
+        "price" : 0,
+        "category" : "free",
+        "image" : "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730545953~exp=1730549553~hmac=70dcff994842df29cd560856a9f2668829b0b41ec2807749868b2604350b5d23&w=740"
+    },
+    {
+
+        "id" : 3,
+        "name" : "comedy Book",
+        "title" : "ljanjndjan ajdnka",
+        "price" : 0,
+        "category" : "free",
+        "image" : "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730545953~exp=1730549553~hmac=70dcff994842df29cd560856a9f2668829b0b41ec2807749868b2604350b5d23&w=740"
+
+    },
+
+    {
+
+        "id" : 4,
+        "name" : "food Book",
+        "title" : "ljanjndjan ajdnka",
+        "price" : 0,
+        "category" : "food",
+        "image" : "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730545953~exp=1730549553~hmac=70dcff994842df29cd560856a9f2668829b0b41ec2807749868b2604350b5d23&w=740"
+        
+    },
+    {
+
+        "id" : 5,
+        "name" : "Horror Book",
+        "title" : "ljanjndjan ajdnka",
+        "price" : 300,
+        "category" : "free",
+        "image" : "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730545953~exp=1730549553~hmac=70dcff994842df29cd560856a9f2668829b0b41ec2807749868b2604350b5d23&w=740"
+        
+    }
+]
