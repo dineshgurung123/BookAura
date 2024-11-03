@@ -1,7 +1,14 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { useForm } from "react-hook-form";
+
 
 function Signup() {
+ 
+  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  
+  const onSubmit = data => console.log(data);
+ 
   return (
   <>
   
@@ -9,18 +16,22 @@ function Signup() {
 
 <div id="my_modal_3" className=" ">
 <div className="modal-box ">
-<form method="dialog ">
+<form method="dialog "  onSubmit= {handleSubmit(onSubmit)}>
   {/* if there is a button in form, it will close the modal */}
   <Link to ='/'className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</Link>
-</form>
+
 <h3 className="font-bold text-lg">Signup</h3>
 
 {/* name */}
-<div className='mt-4space-y-3'>
+<div className='mt-6 space-y-3'>
 
-    <span>Name</span>
+  <span>Name</span>
     <br />
-    <input type="text"  placeholder='Enter  name' className='w-80 border rounded-md px-4 outline-none'/>
+     <input type="text"  placeholder='Enter full name'  className='w-80 border rounded-md px-4 outline-none'
+       {...register("name", { required: true })} />  
+    
+    <br />
+    {errors.name && <span className='text-sm text-red-500'>This field is required</span>}
     <br />
 
 </div>
@@ -30,8 +41,11 @@ function Signup() {
 
     <span>Email</span>
     <br />
-    <input type="email"  placeholder='Enter email' className='w-80 border rounded-md px-4 outline-none'/>
+    <input type="email"  placeholder='Enter email' className='w-80 border rounded-md px-4 outline-none'
+        {...register("email", { required: true })} />
+
     <br />
+    {errors.email && <span className='text-sm text-red-500'>This field is required</span>}
 
 </div>
 
@@ -41,8 +55,13 @@ function Signup() {
 
 <span>Password</span>
 <br />
-<input type="text"  placeholder='Enter password' className='w-80 border rounded-md px-4 outline-none'/>
+<input type="text"  placeholder='Enter password' className='w-80 border rounded-md px-4 outline-none'
+   {...register("password", { required: true })} 
+/>
 <br />
+
+{errors.password && <span className='text-sm text-red-500'>This field is required</span>}
+
 
 </div>
 
@@ -57,7 +76,7 @@ function Signup() {
 
 </p>
 </div>
-
+</form>
 </div>
 </div>
 </div>
