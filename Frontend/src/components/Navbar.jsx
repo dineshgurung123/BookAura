@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Login from './Login';
 
 function Navbar() {
     const [sticky, setSticky] = useState(false);
@@ -80,7 +81,8 @@ function Navbar() {
                         </div>
 
                         <div className="">
-                            <a className="bg-black text-white px p-2 rounded-md hover:bg-slate-700 duration-300 cursor-pointer">Login</a>
+                            <a className="bg-black text-white px p-2 rounded-md hover:bg-slate-700 duration-300 cursor-pointer " onClick={()=>document.getElementById("my_modal_3").showModal()}>Login</a>
+                            <Login/>
                         </div>
                     </div>
                 </div>
