@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Cards from './Cards'
-import list from '../../public/list.json'
+
 import {Link} from 'react-router-dom'
 import axios from "axios"
 
