@@ -1,5 +1,5 @@
 import User from "../model/user.model.js"
-
+import bcrycptjs from "bcryptjs"
 
 export const signup = async(req, res)=>{
 
@@ -12,10 +12,12 @@ export const signup = async(req, res)=>{
             return  res.status(400).json({message:"user already exist"})
           }
 
+          const hashPassword = await bcrycptjs.hash(password, 10)
+
        const createdUser = new User({
-            fullname,
-            email,
-            password
+            fullname : fullname,
+            email : email,
+            password : hashPassword
 
        })
         await createdUser.save();
