@@ -4,8 +4,11 @@ import Home from './home/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Courses from './courses/Courses';
 import Signup from './components/Signup';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
+ 
+ 
   return (
     <>
       <BrowserRouter>
@@ -17,6 +20,8 @@ function App() {
 
         </Routes>
       </BrowserRouter>
+     <Toaster/>
+
     </>
   );
 }
