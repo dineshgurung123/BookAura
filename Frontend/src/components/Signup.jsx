@@ -19,7 +19,7 @@ function Signup() {
 
       }
 
-    await  axios.post("http://localhost:4001/user/signup", userInfo)
+    await  axios.post("https://bookauras6075.onrender.com/user/signup", userInfo)
      .then((res)=>{
       console.log(res.data)
        if(res.data){
