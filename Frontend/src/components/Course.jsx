@@ -17,11 +17,13 @@ const getBook = async ()=>{
 try {
   
 const res = await axios.get("https://bookauras6075.onrender.com/book")
+  
+
 console.log(res.data)
 setBook(res.data)
 
 } catch (error) {
-  console.log(error)
+  console.log(error.message)
 }
 }
 getBook()
