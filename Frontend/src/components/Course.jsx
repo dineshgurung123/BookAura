@@ -16,7 +16,7 @@ const getBook = async ()=>{
 
 try {
   
-const res = await axios.get("https://bookauras6075.onrender.com/book")
+const res = await axios.get("https://bookaura6075.onrender.com/book")
 console.log(res.data)
 setBook(res.data)
 

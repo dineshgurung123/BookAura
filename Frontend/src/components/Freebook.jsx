@@ -28,15 +28,10 @@ function Freebook() {
      }
  
 
-
         }
 
   getBook()
      }, [])
-
-
-
-
 
 
     const settings = {
