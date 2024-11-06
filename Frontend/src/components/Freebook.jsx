@@ -20,7 +20,7 @@ function Freebook() {
       
         const res =  await axios.get("https://bookauras6075.onrender.com/book");
         
-        setBook(res.data.filter((data) => data.category === "free"))
+        setBook(res.data)
 
      } catch (error) {
         
@@ -73,7 +73,7 @@ function Freebook() {
         <>
             <div className='max-w-screen-2xl container mx-auto md:px-20 px-4'>
                 <div>
-                    <h1 className='font-bold text-xl pb-2'>Free Offered Courses</h1>
+                    <h1 className='font-bold text-xl pb-2'>Offered Courses</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rem minima voluptatem aliquam deserunt corporis minus voluptate illo quisquam excepturi.</p>
                 </div>
             </div>
