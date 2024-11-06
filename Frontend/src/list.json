@@ -1,0 +1,102 @@
+[
+  {
+    "name": "The Great Adventure",
+    "title": "A Journey Through Time",
+    "price": 150
+  },
+  {
+    "name": "Mystery in the Dark",
+    "title": "Secrets Unveiled",
+    "price": 200
+  },
+  {
+    "name": "The Lost Kingdom",
+    "title": "Warriors of the East",
+    "price": 180
+  },
+  {
+    "name": "The Silent Forest",
+    "title": "Echoes of the Past",
+    "price": 120
+  },
+  {
+    "name": "The Dreamer’s Path",
+    "title": "Following the Stars",
+    "price": 250
+  },
+  {
+    "name": "Beyond the Horizon",
+    "title": "Tales of the Ocean",
+    "price": 300
+  },
+  {
+    "name": "Whispers in the Wind",
+    "title": "The Spirits Speak",
+    "price": 130
+  },
+  {
+    "name": "Into the Wilderness",
+    "title": "Finding the Lost Tribe",
+    "price": 210
+  },
+  {
+    "name": "The Timekeeper’s Secret",
+    "title": "Master of Time",
+    "price": 175
+  },
+  {
+    "name": "Echoes of the Past",
+    "title": "Legends Never Die",
+    "price": 190
+  },
+  {
+    "name": "The Shattered Sky",
+    "title": "Battle for the Stars",
+    "price": 220
+  },
+  {
+    "name": "Journey Through the Clouds",
+    "title": "The Airship Chronicles",
+    "price": 160
+  },
+  {
+    "name": "The Phantom’s Curse",
+    "title": "Ghosts of the Old City",
+    "price": 140
+  },
+  {
+    "name": "The Last Horizon",
+    "title": "The Final Escape",
+    "price": 250
+  },
+  {
+    "name": "The Ancient Code",
+    "title": "Unlocking the Mystery",
+    "price": 210
+  },
+  {
+    "name": "The Rebel’s War",
+    "title": "Fighting for Freedom",
+    "price": 190
+  },
+  {
+    "name": "The Silent Blade",
+    "title": "Assassins of the Night",
+    "price": 220
+  },
+  {
+    "name": "The Moonlit Journey",
+    "title": "A Path to Destiny",
+    "price": 170
+  },
+  {
+    "name": "The Enchanted Garden",
+    "title": "Secrets of the Forest",
+    "price": 130
+  },
+  {
+    "name": "The Golden Compass",
+    "title": "Finding the Lost World",
+    "price": 230
+  }
+]

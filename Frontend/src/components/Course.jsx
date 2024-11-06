@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import Cards from './Cards'
+import List from '../list.json'
 
 import {Link} from 'react-router-dom'
 import axios from "axios"
@@ -20,7 +21,7 @@ const res = await axios.get("https://bookauras6075.onrender.com/book")
   
 
 console.log(res.data)
-setBook(res.data)
+setBook(List)
 
 } catch (error) {
   console.log(error.message)

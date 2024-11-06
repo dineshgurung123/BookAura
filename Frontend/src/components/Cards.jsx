@@ -10,7 +10,7 @@ function Cards({item}) {
     <div className="card bg-base-100 w-96 shadow-xl ml-4 hover:scale-105 duration:200">
   <figure>
     <img
-      src={item.image}
+      src= "https://img.freepik.com/free-vector/man-running-book_1343-61.jpg?t=st=1730904566~exp=1730908166~hmac=909e6443b5a1389aff50ed4b79a1f6efc8ad18aa8659d1e51d74db68d28cfa52&w=740"
       alt="Shoes" />
   </figure>
   <div className="card-body">
