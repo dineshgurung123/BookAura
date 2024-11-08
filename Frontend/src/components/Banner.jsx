@@ -29,7 +29,7 @@ function Banner() {
 </label>
 
     </div>
-    <button className="btn btn-secondary mt-3">Secondary</button>
+    <button className="btn btn-secondary mt-3">contact</button>
    
 
    
